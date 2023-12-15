@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('https://s1.best-wallpaper.net/wallpaper/m/1909/Passenger-airplane-sky-thick-clouds_m.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}    
+
+form {
+    max-width: 600px; /* Aumentado el ancho del formulario */
+    margin: 20px auto;
+    background-color: white;
+    padding: 40px; /* Aumentado el espacio interno del formulario */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+    text-align: left; /* Alineado el texto a la izquierda */
+
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/642/583/desktop-wallpaper-airplane-aesthetic-travel-aesthetic.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    color: #fff; /* Color blanco para el texto del label */
+}
+
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 12px; /* Aumentado el tamaño del padding */
+    margin-top: 10px; /* Aumentado el espacio superior */
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 18px; /* Aumentado el tamaño del padding */
+    font-size: 18px; /* Aumentado el tamaño del texto */
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #025aa5;
+}
+
+/* Estilos para los Botones */
+.boton-container {
+    background-color: white; /* Fondo blanco para la sección de los botones */
+    border-radius: 8px; /* Bordes redondeados para la sección de los botones */
+    padding: 15px; /* Espaciado interno alrededor de los botones */
+    text-align: center; /* Centra los botones */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.boton {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: rgba(11, 109, 255, 0.849); /* Fondo blanco para los botones */
+    color: #f5f5f5; /* Color del texto */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.boton:hover {
+    background-color: #bca4fc; /* Cambia el color de fondo al pasar el mouse */
+}

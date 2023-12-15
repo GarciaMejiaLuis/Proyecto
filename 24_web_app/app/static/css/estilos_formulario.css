@@ -1,0 +1,17 @@
+/* Fondo de la página de formulario */
+body{
+    background-image: url('https://s1.1zoom.me/big0/109/Evening_Sky_Passenger_Airplanes_Asphalt_512661_1280x778.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333; /* Color de texto predeterminado para mejorar la legibilidad */
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    color: #000000; /* Color del texto */
+    font-size: 18px; /* Tamaño de la fuente */
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscar Boletos</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos_iniciarSesion.css') }}">
+
+
+</head>
+<body>
+
+    <h1>Buscar Boletos</h1>
+    
+    <form action="{{ url_for('main.submit_form') }}" method="post">
+        <label for="tiempo_viaje">Tiempo_viaje:</label>
+        <input type="number" id="tiempo_viaje" name="tiempo_viaje"><br>
+        
+        <label for="fecha_inicio">Fecha minima de vuelo  :</label>
+        <input type="date" id="fecha_inicio" name="fecha_inicio" ><br>
+        
+        <label for="fecha_final">Fecha maxima de  regreso:</label>
+        <input type="date" id="fecha_final" name="fecha_final" ><br>
+        <input type="submit" value="Buscar Boletos">
+
+    </form>
+
+    <a href="{{ url_for('main.index') }}" class="boton">Inicio</a>
+
+</body>
+</html>

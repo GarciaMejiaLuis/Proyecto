@@ -1,0 +1,131 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/*
+https://i.pinimg.com/236x/30/b6/9e/30b69ef5f16d04983bd622c63ed26c7c.jpg
+ Fondo de la página de éxito */
+body {
+    background-image: url('https://oasisblog.nyc3.cdn.digitaloceanspaces.com/2022/03/avion-mar-cancun.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contenedor principal */
+.main-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    background-color: white; /* Fondo blanco para el título */
+    padding: 10px; /* Ajusta el espaciado interno según sea necesario */
+    border-radius: 8px; /* Agrega bordes redondeados al título */
+}
+
+/* Estilos para los Botones */
+.boton-container {
+    background-color: white; /* Fondo blanco para la sección de los botones */
+    border-radius: 8px; /* Bordes redondeados para la sección de los botones */
+    padding: 15px; /* Espaciado interno alrededor de los botones */
+    text-align: center; /* Centra los botones */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+.boton {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: rgb(96, 11, 255); /* Fondo blanco para los botones */
+    color: #f5f5f5; /* Color del texto */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.boton2 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: rgb(0, 233, 58); /* Fondo blanco para los botones */
+    color: #ffffff; /* Color del texto */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.boton:hover {
+    background-color: #bca4fc; /* Cambia el color de fondo al pasar el mouse */
+}
+.boton2:hover {
+    background-color: #95ff9a; /* Cambia el color de fondo al pasar el mouse */
+}
+/* Estilos para Formularios */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    color: #ffffff; /* Color del texto */
+    font-size: 18px; /* Tamaño de la fuente */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: transform 0.3s ease; /* Agregamos una transición suave a la propiedad transform */
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+    transform: scale(1.1); /* Aumentamos el tamaño al pasar el mouse */
+}
+
+
+
