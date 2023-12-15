@@ -11,17 +11,15 @@ Este proyecto consiste en una aplicación web que permite a los usuarios calcula
 ## Instrucciones de Uso
 
 1. *Clonar el Repositorio:*
-   bash
-   git clone https://github.com/tuusuario/proyecto-viajes.git
-   cd proyecto-viajes
+   https://github.com/GarciaMejiaLuis/Proyecto.git
    
 
-2. *Crear un Entorno Virtual:*
+3. *Crear un Entorno Virtual:*
    bash
    python -m venv venv
    
 
-3. *Activar el Entorno Virtual:*
+4. *Activar el Entorno Virtual:*
    - En Windows:
      bash
      .\venv\Scripts\activate
@@ -31,15 +29,15 @@ Este proyecto consiste en una aplicación web que permite a los usuarios calcula
      source venv/bin/activate
      
 
-4. *Instalar Dependencias:*
+5. *Instalar Dependencias:*
    bash
    pip install -r requirements.txt
    
 
-5. *Configurar Base de Datos:*
+6. *Configurar Base de Datos:*
    Asegúrate de modificar la configuración de la base de datos en app.py según tus necesidades.
 
-6. *Ejecutar la Aplicación:*
+7. *Ejecutar la Aplicación:*
    bash
    python app.py
    
